@@ -1,0 +1,5 @@
+region        = "us-west-1"
+ami           = "ami-0b695b365bec60938"
+instance_type = "t2.nano"
+keypair       = "dev-wdp"
+Name          = "dev-server"
