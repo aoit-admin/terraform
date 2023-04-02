@@ -3,9 +3,9 @@ resource "aws_instance" "terraform-demo" {
   instance_type = var.instance_type
   key_name      = var.keypair
     tags = {
-    "name"       = "Jenkins"
-    "env"        = "dev"
-    "created-by" = "Obrien"
+     Name       = var.Name
+    Env        = "dev"
+    Created-by = "Obrien"
   }
 
 }
